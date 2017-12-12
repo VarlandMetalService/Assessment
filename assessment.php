@@ -434,7 +434,7 @@ class VMS extends CLP {
 
     // Store replacement characters. Only allow "@" if not already present.
     $replacementCharacters = array('a', '.');
-    if (substr_count($pattern, '@') == 0) $replacementCharacters[] = '@';
+    if (substr_count($format, '@') == 0) $replacementCharacters[] = '@';
 
     // Initialize count to 0.
     $countValid = 0;
